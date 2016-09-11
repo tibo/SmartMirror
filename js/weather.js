@@ -17,10 +17,10 @@ function refresh_weather() {
 
     });
   })
+
+  window.setTimeout(refresh_weather, 1000*60*60);
 }
 
 $(window).on('load', function() {
-  
-
   refresh_weather();
 });
