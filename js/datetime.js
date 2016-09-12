@@ -12,9 +12,5 @@ function refresh_datetime() {
 }
 
 $(window).on('load', function() {
-  // $.get( "http://www.timeapi.org/utc/now", function( data ) {
-  //   alert(new Date(data));
-  // });
-
   refresh_datetime();
 });
